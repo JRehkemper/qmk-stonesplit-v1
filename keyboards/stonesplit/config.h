@@ -18,7 +18,9 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
-
+#define USE_SERIAL
 #define MASTER_LEFT
-#define EE_HANDS
-#define USE_I2C
+#define SOFT_SERIAL_PIN D3
+
+#define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT 2500
